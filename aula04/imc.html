@@ -1,21 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nome</title>
     <script src="imc.js"></script>
+    <link rel="stylesheet" href=".css">
 </head>
 <body>
-    <div>
-        <h2 id="resultado"> Resultado: peso</h2>
 
-        <input type="text" id="numl" placeholder="Digite seu peso aqui">
-    
-        <input type="text" id="numl2" placeholder="Digite sua altura aqui">
-        <br><br>
-    
-       <button onclick="somar()">IMC</button>
-    </div>
+<body>
+
+<div class="container">
+
+<h2 id="imc">Seu IMC: Calcule</h2>
+
+<input type="number" id="valorpeso" placeholder="Digite seu peso">
+
+<input type="number" id="valoraltura" placeholder="Digite sua altura">
+
+<button onclick="dividir()">Calcular</button>
+
+</div>
+
+</body>
 </body>
 </html>
